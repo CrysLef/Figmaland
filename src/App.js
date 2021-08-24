@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/MainHeader'
+import DefaultButton from './components/DefaultButton'
+import screens from './assets/images/screens.svg'
+import {ScreensImage } from './components/screensImage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <Header />
+      <div className="TextBox">
+        <h1>Work at the speed of thought.</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Most calendars are designed for teams. <br />Slate is designed for freelancers who <br />want a simple way to plan <br /> their schedule.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </div>
+
+      <div className="buttonBox">
+        
+          <DefaultButton 
+            nomeDaClasse="BlueButton" 
+            link="#" 
+            content="Try for free" 
+          />
+
+          <DefaultButton 
+          link="#"
+          content="Learn More"
+          />
+
+      </div>
+
+      <ScreensImage>
+        <img src={screens} alt="Telas do app Figmaland" />
+      </ScreensImage>
+    </>
   );
 }
 
