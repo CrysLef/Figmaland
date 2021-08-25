@@ -49,11 +49,11 @@ function App() {
           <div className="framesBox">
             <img src={frames} alt="frames" />
           </div>
-          <div className="featuresBox">
+          
            <FeaturesTemplate image={icon1} title="A single source of truth" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
            <FeaturesTemplate image={icon2} title="Intuitive interface" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
            <FeaturesTemplate image={icon3} title="Or with rules" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
-          </div>
+           
         </div>
 
       </section>
@@ -61,22 +61,24 @@ function App() {
       <section>
 
         <TextBox title="Contents" text="We focus on ergonomics and meeting you where you work. It's only a keystroke away." />
-        <WhiteCard 
-          title="Work" 
-          subtitle="Ever wondered if you're too reliant on a client for work? Slate helps you identify." 
-          link="#" 
-          content="Sign Up" 
-          image={computer} 
-          altText="a Image of a computer"
-        />
-        <WhiteCard 
-          title="Design with real data" 
-          subtitle="Ever wondered if you're too reliant on a client for work? Slate helps you identify." 
-          link="#" 
-          content="Try for free" 
-          image={boardsNotifications} 
-          altText="a image of the app" 
-        />
+        <div className="whiteCardBox">
+          <WhiteCard 
+            title="Work" 
+            subtitle="Ever wondered if you're too reliant on a client for work? Slate helps you identify." 
+            link="#" 
+            content="Sign Up" 
+            image={computer} 
+            altText="a Image of a computer"
+          />
+          <WhiteCard 
+            title="Design with real data" 
+            subtitle="Ever wondered if you're too reliant on a client for work? Slate helps you identify." 
+            link="#" 
+            content="Try for free" 
+            image={boardsNotifications} 
+            altText="a image of the app" 
+          />
+        </div>
       </section>
 
       <section>
@@ -91,10 +93,12 @@ function App() {
 
       <section>
         <TextBox title="Testimonials" />
-        <TestimonialsCard image={wadeAvatar} userName="Wade Steward" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
-        <TestimonialsCard image={philipAvatar} userName="Philip Watson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
-        <TestimonialsCard image={arthurAvatar} userName="Arthur Wilson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
-        <TestimonialsCard image={reginaAvatar} userName="Regina Black" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+        <div className="testimonialsBox">
+          <TestimonialsCard image={wadeAvatar} userName="Wade Steward" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+          <TestimonialsCard image={philipAvatar} userName="Philip Watson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+          <TestimonialsCard image={arthurAvatar} userName="Arthur Wilson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+          <TestimonialsCard image={reginaAvatar} userName="Regina Black" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />  
+        </div>
       </section>
 
       <LineChartSection />

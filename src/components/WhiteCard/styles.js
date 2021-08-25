@@ -7,7 +7,7 @@ export const Box = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 3.3rem auto;
+    margin: 5rem auto;
     padding: 4rem 0;
     overflow: hidden;
     border-radius: 1rem;

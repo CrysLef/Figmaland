@@ -37,7 +37,22 @@ export default createGlobalStyle`
         margin-top: 2.7rem;
     }
 
-    .featuresBox {
-        margin: 4.7rem 10rem;
+    .whiteCardBox {
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+    }
+
+    .testimonialsBox {
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
     }
 `

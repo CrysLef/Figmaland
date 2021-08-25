@@ -5,6 +5,10 @@ export const Box = styled.div`
     flex-direction: column;
     margin: 5.7rem 7.4rem 0 7.4rem;
 
+    @media (min-width: 768px) and (max-width: 1024px) {
+        margin: 5.7rem 22rem 0 22rem;
+    }
+
     h2 {
         font-weight: 500;
         text-align: center;
