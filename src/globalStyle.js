@@ -16,25 +16,6 @@ export default createGlobalStyle`
         background-color: #181818;
     }
 
-    .TextBox {
-        display: flex;
-        flex-direction: column;
-        margin: 5.7rem 7.4rem 0 7.4rem;
-
-        h1 {
-            font-weight: 500;
-            text-align: center;
-            font-size: 3.2rem;
-            margin-bottom: 1.7rem;
-        }
-
-        p {
-            text-align: center;
-            line-height: 2.5rem;
-            font-size: 1.1rem;
-        }
-    }
-
     .buttonBox {
         display: flex;
         margin: 5.7rem auto 0 auto;
@@ -43,6 +24,20 @@ export default createGlobalStyle`
 
         button {
             margin-bottom: 2.1rem;
+            width: 100%;
         }
+    }
+
+    .framesBox {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 33rem;
+        height: 35rem;
+        margin-top: 2.7rem;
+    }
+
+    .featuresBox {
+        margin: 4.7rem 10rem;
     }
 `

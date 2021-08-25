@@ -10,5 +10,5 @@ export const Button = styled.button`
 export const BlueButton = styled(Button)`
     background-color: #4452FE;
     border: none;
-    width: 100%;
+    /* width: 100%; */
 `
