@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Burger = styled.div`
+    display: none;
+   
+   @media (max-width: 1020px) {
     width: 3.5rem;
     height: 2.5rem;
     margin: 0 2rem;
@@ -33,10 +36,33 @@ export const Burger = styled.div`
             transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)' };
         }
     }
+   }
+   
+
 `
 
 export const Ul = styled.ul`
     list-style: none;
+    display: flex;
+    margin: 0 22rem 0 15rem;
+
+    li {
+        text-align: center;
+        padding: 2rem;
+        font-size: 1.6rem;
+        cursor: pointer;
+
+        &:hover {
+            color: #4452FE;
+        }
+
+        &:nth-child(1) {
+            padding-left: 0;
+        }
+    }
+    
+
+@media (max-width: 1020px) {
     position: fixed;
     top: 0;
     right: 0;
@@ -46,13 +72,11 @@ export const Ul = styled.ul`
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform .3s ease-in-out;
     z-index: 10;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 0;
 
     li {
         color: #fff;
-        text-align: center;
         padding: 7rem;
         font-size: 2.4rem;
 
@@ -60,4 +84,6 @@ export const Ul = styled.ul`
             background-color: #4452F5;
         }
     }
+}
+
 `
