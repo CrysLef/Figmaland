@@ -6,7 +6,6 @@ import icon2 from './assets/images/icon_2.svg'
 import icon3 from './assets/images/icon_3.svg'
 import { ScreensImage } from './components/screensImage'
 import TextBox from './components/TextBox'
-import frames from './assets/images/frames.svg'
 import FeaturesTemplate from './components/FeaturesTemplate'
 import WhiteCard from './components/WhiteCard'
 import computer from './assets/images/computer.svg'
@@ -45,14 +44,15 @@ function App() {
 
         <TextBox title="Features" text="Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule."/>
 
-        <div>
-          <div className="framesBox">
-            <img src={frames} alt="frames" />
+        <div className="featuresBox">
+          <div className="framesBox"></div>
+
+          <div>
+              <FeaturesTemplate image={icon1} title="A single source of truth" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
+              <FeaturesTemplate image={icon2} title="Intuitive interface" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
+              <FeaturesTemplate image={icon3} title="Or with rules" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
           </div>
-          
-           <FeaturesTemplate image={icon1} title="A single source of truth" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
-           <FeaturesTemplate image={icon2} title="Intuitive interface" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
-           <FeaturesTemplate image={icon3} title="Or with rules" subtitle="When you add work to your Slate calendar we automatically calculate useful insights" />
+           
            
         </div>
 
