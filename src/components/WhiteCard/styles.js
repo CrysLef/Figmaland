@@ -21,6 +21,12 @@ export const Box = styled.div`
         height: 100%;
         margin: 5.7rem auto;
     }
+
+    @media (min-width: 1020px) {
+        &:nth-child(1) {
+            margin-right: -50rem;
+        }
+    }
 `
 
 export const Title = styled.h2`
