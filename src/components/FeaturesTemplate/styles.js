@@ -11,6 +11,7 @@ export const FeaturesBox = styled.div`
         height: 18rem;
         margin: 4.7rem 28rem;
     }
+
 `
 
 export const Container = styled.div`
