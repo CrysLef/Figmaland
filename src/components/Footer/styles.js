@@ -11,6 +11,12 @@ export const Container = styled.div`
         height: 3.5rem;
         margin-right: 1.5rem;
     }
+
+
+    @media (min-width: 1020px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 `
 
 export const Wrapper = styled.div`
@@ -26,7 +32,24 @@ export const Wrapper = styled.div`
         font-size: 1rem;
         font-weight: 400;
         margin-bottom: 1.9rem;
+        cursor: pointer;
+
+        &:hover {
+            color: #4452FE;
+        }
     }
+
+    @media (min-width: 1020px) {
+        margin-bottom: 0;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+        }
+}
 `
 
 export const Address = styled.address`
@@ -41,5 +64,10 @@ export const ContactBox = styled.div`
 
     p {
         font-size: .9rem;
+
+        @media (min-width: 1020px) {
+            font-size: 1.2rem;
+        }
     }
+
 `

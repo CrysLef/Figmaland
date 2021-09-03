@@ -39,12 +39,18 @@ export default function Footer() {
                         <img src={iconSmartphone} alt="ícone de um smartphone" />
                         <p>(239) 555-0108</p>
                     </S.ContactBox>
-                </S.Address>
                 <div>
-                    <img src={iconTwitter} alt="ícone do twitter" />
-                    <img src={iconFacebook} alt="ícone do facebook" />
-                    <img src={iconLinkedin} alt="ícone do linkedin" />
+                    <a href="#">
+                        <img src={iconTwitter} alt="ícone do twitter" />
+                    </a>
+                    <a href="#">
+                        <img src={iconFacebook} alt="ícone do facebook" />
+                    </a>
+                    <a href="#">
+                        <img src={iconLinkedin} alt="ícone do linkedin" />
+                    </a>
                 </div>
+                </S.Address>
             </S.Container>
         </footer>
         
