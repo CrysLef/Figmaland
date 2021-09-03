@@ -6,9 +6,11 @@ import DefaultButton from '../DefaultButton'
 export default function LineChartSection() {
     return(
         <S.Section>
-            <TextBox title="OpenType features and Variable fonts" />
             <S.Container>
-                <DefaultButton content="Try for free" link="#" nomeDaClasse="BlueButton" />
+                <S.ButtonTextBox>
+                    <TextBox title="OpenType features and Variable fonts" />
+                    <DefaultButton content="Try for free" link="#" nomeDaClasse="BlueButton" />
+                </S.ButtonTextBox>
                 <img src={lineChart} alt="" />
             </S.Container>
         </S.Section>
