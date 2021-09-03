@@ -14,4 +14,8 @@ export const ScreensImage = styled.div`
         height: 100%;
         z-index: -1;
     }
+
+    @media (min-width: 1024px) {
+       max-height: max-content;
+    }
 `
