@@ -5,10 +5,20 @@ export const Button = styled.button`
     background-color: transparent;
     border: 1px solid #FFF;
     font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
 
 `
 export const BlueButton = styled(Button)`
     background-color: #4452FE;
-    border: none;
-    /* width: 100%; */
+    border: 1px solid #4452FE;
+
+    &:hover {
+        color: #4452FE;
+        border: 1px solid #4452FE;
+    }
 `
