@@ -17,6 +17,11 @@ export const Card = styled.div`
         margin-top: 2rem;
         line-height: 1.8rem;
     }
+
+    @media (min-width: 1020px) {
+        width: 35rem;
+        height: 28rem
+    }
 `
 
 export const userInfo = styled.div`

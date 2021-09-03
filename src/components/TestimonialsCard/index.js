@@ -2,7 +2,7 @@ import * as S from './styles'
 
 export default function TestimonialsCard(props) {
     return(
-        <S.Card>
+        <S.Card className="differentHeight">
             <S.userInfo>
                 <img src={props.image} alt="User photo" />
                 <div>
