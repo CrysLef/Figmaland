@@ -94,10 +94,14 @@ function App() {
       <section>
         <TextBox title="Testimonials" />
         <div className="testimonialsBox">
-          <TestimonialsCard image={wadeAvatar} userName="Wade Steward" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
-          <TestimonialsCard image={philipAvatar} userName="Philip Watson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
-          <TestimonialsCard image={arthurAvatar} userName="Arthur Wilson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
-          <TestimonialsCard image={reginaAvatar} userName="Regina Black" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />  
+          <div className="userContainer1">
+            <TestimonialsCard image={wadeAvatar} userName="Wade Steward" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+            <TestimonialsCard image={philipAvatar} userName="Philip Watson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+          </div>
+          <div className="userContainer2">
+            <TestimonialsCard image={arthurAvatar} userName="Arthur Wilson" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />
+            <TestimonialsCard image={reginaAvatar} userName="Regina Black" work="Designer" testimonial="Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Your financial goal for the month and year." />  
+          </div>
         </div>
       </section>
 

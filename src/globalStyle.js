@@ -18,6 +18,10 @@ export default createGlobalStyle`
         background-color: #181818;
     }
 
+    footer {
+        margin-top: 18rem;
+    }
+
     .buttonBox {
         display: flex;
         justify-content: center;
@@ -82,10 +86,25 @@ export default createGlobalStyle`
     .testimonialsBox {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin-bottom: 15rem;
 
         @media (min-width: 768px) {
             flex-direction: row;
             flex-wrap: wrap;
+            
+            .userContainer1 {
+                margin-right: 2.3rem;
+            }
+        }
+    }
+
+    @media (min-width: 1020px) {
+ 
+        .userContainer2 {
+            .differentHeight {
+                height: 26rem;
+            }
         }
     }
 `
