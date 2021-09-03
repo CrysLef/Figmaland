@@ -21,6 +21,7 @@ export const Container = styled.div`
 export const LogoWrapper = styled.div`
     display: flex;
     margin: 5rem auto;
+    align-items: center;
     
     img {
         width: 4rem;
@@ -33,6 +34,11 @@ export const LogoWrapper = styled.div`
             width: 6rem;
             height: 6rem;
             margin: 0 3rem;
+        }
+
+        .logoIBM {
+            width: 8rem;
+            height: 8rem;
         }
     }
 `

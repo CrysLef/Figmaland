@@ -19,7 +19,7 @@ export default function PartnersWrapper() {
             <S.LogoWrapper>
               <img src={logoBaseCamp} alt="Logo do Basecamp" />
               <img src={logoAirBnb} alt="Logo do AirBnb" />
-              <img src={logoIBM} alt="Logo da IBM" />
+              <img className="logoIBM" src={logoIBM} alt="Logo da IBM" />
             </S.LogoWrapper>
           </div>
           <DefaultButton content="All Partners" link="#" />
