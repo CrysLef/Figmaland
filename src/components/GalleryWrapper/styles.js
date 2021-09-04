@@ -51,9 +51,6 @@ export const Container = styled.div`
             .imgID1{
                 margin-left: -12rem;
             }
-            .imgID2{}
-            .imgID3{}
-            .imgID4{}
 
             .imgID5 {
                 display: block;

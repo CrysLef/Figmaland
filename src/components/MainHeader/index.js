@@ -1,5 +1,5 @@
 import * as S from './styles'
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/images/logos/logo.svg'
 import NavMenu from '../NavMenu'
 
 export default function Header() {

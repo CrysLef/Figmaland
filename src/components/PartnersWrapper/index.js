@@ -1,11 +1,11 @@
 import * as S from './styles'
 import DefaultButton from '../DefaultButton'
-import logoAppStore from '../../assets/images/logo_app_store.svg'
-import logoApiary from '../../assets/images/logo_apiary.svg'
-import logoAndroid from '../../assets/images/logo_android.svg'
-import logoBaseCamp from '../../assets/images/logo_basecamp.svg'
-import logoAirBnb from '../../assets/images/logo_airbnb.svg'
-import logoIBM from '../../assets/images/logo_ibm.svg'
+import logoAppStore from '../../assets/images/logos/logo_app_store.svg'
+import logoApiary from '../../assets/images/logos/logo_apiary.svg'
+import logoAndroid from '../../assets/images/logos/logo_android.svg'
+import logoBaseCamp from '../../assets/images/logos/logo_basecamp.svg'
+import logoAirBnb from '../../assets/images/logos/logo_airbnb.svg'
+import logoIBM from '../../assets/images/logos/logo_ibm.svg'
 
 export default function PartnersWrapper() {
     return(

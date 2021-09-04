@@ -1,9 +1,9 @@
 import * as S from './styles'
-import iconMap from '../../assets/images/icon_map.svg'
-import iconSmartphone from '../../assets/images/icon_smartphone.svg'
-import iconTwitter from '../../assets/images/icon_twitter.svg'
-import iconFacebook from '../../assets/images/icon_facebook.svg'
-import iconLinkedin from '../../assets/images/icon_linkedin.svg'
+import iconMap from '../../assets/images/icons/icon_map.svg'
+import iconSmartphone from '../../assets/images/icons/icon_smartphone.svg'
+import iconTwitter from '../../assets/images/icons/icon_twitter.svg'
+import iconFacebook from '../../assets/images/icons/icon_facebook.svg'
+import iconLinkedin from '../../assets/images/icons/icon_linkedin.svg'
 
 export default function Footer() {
     return(

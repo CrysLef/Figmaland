@@ -53,12 +53,10 @@ export const Wrapper = styled.div`
 `
 
 export const Address = styled.address`
-    display: flex;
     flex-direction: column;
 `
 
 export const ContactBox = styled.div`
-    display: flex;
     align-items: center;
     margin-bottom: 3rem;
 
