@@ -8,6 +8,7 @@
     <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -20,6 +21,10 @@
 
   <img src="https://img.shields.io/github/stars/CrysLef/gama-repo?label=stars&message=MIT&color=FFFFFF&labelColor=4452FE" alt="Stars">
 </p>
+
+<br>
+
+<img src="./src/assets/images/thumbnail.png" alt="Imagem de layout">
 
 <br >
 
@@ -57,6 +62,14 @@ Abra o [http://localhost:3000](http://localhost:3000) para abrir no seu browser.
 
 A página irá recarregar assim que você fizer edições.\
 Você também poderá ver os erros no console.
+
+<br>
+
+### 🖼️ Layout
+
+O layout foi desenvolvido por http://figmaland.com, para termos mais acessos aos seus detalhes, podemos encontrar seus detalhes dentro do Figma atráves deste [link](https://www.figma.com/file/oAlu4ZVtL6lm6a8OL5532F/Figma-startup-landing-page-dark-(Community)?node-id=96%3A181).
+
+<img src="./src/assets/images/thumbnail.png" alt="Imagem de layout">
 
 <br>
 
