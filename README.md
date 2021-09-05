@@ -65,7 +65,7 @@ Você também poderá ver os erros no console.
 
 <br>
 
-### 🖼️ Layout
+# 🖼️ Layout
 
 O layout foi desenvolvido por http://figmaland.com, para termos mais acessos aos seus detalhes, podemos encontrar seus detalhes dentro do Figma atráves deste [link](https://www.figma.com/file/oAlu4ZVtL6lm6a8OL5532F/Figma-startup-landing-page-dark-(Community)?node-id=96%3A181).
 
